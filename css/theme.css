@@ -3,12 +3,16 @@
   --secondary-color: #212121;
   --primary-color-card: #82589F;
   --box-shadow-color: #6D214F;
+  --box-color: #212121;
+  --box-hover-color: #ff4321;
 }
 .dark-theme{
   --primary-color: #000106;
   --secondary-color: #fff;
   --primary-color-card: #6D214F;
   --box-shadow-color:#82589F;
+  --box-color: #ff4321;
+  --box-hover-color: #fff;
 }
 
 #icon {
