@@ -1,0 +1,25 @@
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  --primary-color-card: #82589F;
+  --box-shadow-color: #6D214F;
+}
+.dark-theme{
+  --primary-color: #000106;
+  --secondary-color: #fff;
+  --primary-color-card: #6D214F;
+  --box-shadow-color:#82589F;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  background: var(--primary-color);
+  font-family: sans-serif;
+  position: relative;
+}
