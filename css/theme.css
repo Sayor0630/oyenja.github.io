@@ -6,6 +6,7 @@
   --box-color: #212121;
   --secondary-box-color: #ff4321;
   --box-hover-color: #ff4321;
+  --nav-button-color: #212121;
 }
 .dark-theme{
   --primary-color: #000106;
@@ -15,6 +16,7 @@
   --box-color: #ff4321;
   --secondary-box-color: #212121;
   --box-hover-color: #fff;
+  --nav-button-color: #fff;
 }
 
 #icon {

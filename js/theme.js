@@ -1,7 +1,7 @@
 var icon = document.getElementById("icon");
 
 if(localStorage.getItem("theme") == null){
-    localStorage.setItem("theme", "light");
+    localStorage.setItem("theme", "dark");
 }
 
 

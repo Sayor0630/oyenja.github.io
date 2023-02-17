@@ -11,12 +11,23 @@ nav ul{
     flex: 1;
     text-align: right;
 }
+@font-face {
+    font-family: 'Audiowide';
+    src: url('../font/oyenja-audiowide-regular.ttf') format('truetype');
+  }
+  
 
 .logo{
-    width: 100px;
+    width: 50px;
     cursor: pointer;
 }
 
+.logoText{
+    font-family: 'Audiowide';
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin-left: -3px;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -25,9 +36,29 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #27ae60;
 }
 
 nav ul li a:hover{
-    color: #ff4321;
+    background-color: var(--nav-button-color);
+    color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+
+.active {
+    background-color: var(--box-color);
+    color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+.active:hover{
+    color: var(--box-hover-color);
+}
+nav ul li a{
+    background-color: var(--primary-color-card);
+    color: var(--nav-button-color);
+    padding: 10px 15px;
+    border-radius: 100px;
 }
