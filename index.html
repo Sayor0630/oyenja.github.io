@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oyenja || Home</title>
-    <link type="image/png" sizes="96x96" rel="icon" href="./img/logo/oyenja-logo-color-on-transparent-background.png">
+    <link type="image/png" rel="icon" href="./img/logo/oyenja-blue-logo.png">
+    <link rel="stylesheet" type="text/css" href="./css/preloader.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/prime.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/theme.css">
-
     <!-- header-slider css -->
     <link rel="stylesheet" href="./css/header-slider.scss">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
@@ -19,7 +19,12 @@
 <link rel="stylesheet" href="./font/oyenja-audiowide-regular.ttf">
 </head>
 <body id="body">
-  <div class="hero">
+  <div class="preloader">
+    <div class="preloader-image">
+      <img class="preimg" src="./img/logo/blue-logo.png">
+    </div>
+  </div>
+  <div id="hero">
     <header class="header">   
         <nav>  
           <img id="logo" src="./img/logo/white-logo.png" alt="Logo of Oyenja" class="logo">
@@ -36,9 +41,11 @@
       </header>
     </div>
       <!-- <div class="discord-link"><a href=""><i class="fa-brands fa-discord"></i></a></div> -->
-  
+      
+      <script src="./js/preloader.js"></script>
       <script src="./js/nav_active.js"></script>
-      <script src="./js/theme.js"></script>
       <script src="./js/logo-theme.js"></script>
+      <script src="./js/theme.js"></script>
+      
 </body>
 </html>

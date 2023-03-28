@@ -12,9 +12,9 @@ nav ul{
     text-align: right;
 }
 @font-face {
-    font-family: 'Audiowide';
+    font-family: Audiowide;
     src: url('../font/oyenja-audiowide-regular.ttf') format('truetype');
-  }
+}
   
 
 .logo{
@@ -23,7 +23,7 @@ nav ul{
 }
 
 .logoText{
-    font-family: 'Audiowide';
+    font-family: Audiowide;
     color: var(--secondary-color);
     font-size: 30px;
     margin-left: -3px;
@@ -35,6 +35,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family: Audiowide;
     text-decoration: none;
     color: #27ae60;
 }
@@ -62,3 +63,4 @@ nav ul li a{
     padding: 10px 15px;
     border-radius: 100px;
 }
+

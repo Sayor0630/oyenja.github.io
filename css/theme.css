@@ -13,9 +13,9 @@
   --secondary-color: #fff;
   --primary-color-card: #6D214F;
   --box-shadow-color:#82589F;
-  --box-color: #ff4321;
+  --box-color: #fff;
   --secondary-box-color: #212121;
-  --box-hover-color: #fff;
+  --box-hover-color: #ff4321;
   --nav-button-color: #fff;
 }
 
@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.hero{
+#hero{
   height: 100vh;
   width: 100%;
   background: var(--primary-color);

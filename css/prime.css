@@ -10,6 +10,6 @@
 
 ::selection{
     background-color: var(--box-color);
-    color: var(--secondary-box-color);
+    color: #ff4321;
     border-radius: 10px;
 }

@@ -12,7 +12,7 @@ if(localData == "light"){
     icon.src = "./img/theme_icon/moon.png";
     document.body.classList.remove("dark-theme");
 }
-else if(localData == "dark"){
+else{
     icon.src = "./img/theme_icon/sun.png";
     document.body.classList.add("dark-theme");
 }
